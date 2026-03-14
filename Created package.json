@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-business-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Business Chatbot para respuestas automáticas",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "keywords": ["whatsapp", "bot", "business", "automation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
